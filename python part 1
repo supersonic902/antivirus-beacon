@@ -1,0 +1,16 @@
+input ( Console ("What file should I read?")),
+read ("input") database(all files) # this will read the file you name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
