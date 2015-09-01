@@ -1,0 +1,29 @@
+input( Console ("What file should I read?")),
+read("input") database(all files) # this will read the file you name
+read_code("input") int_check [
+  if line "1024" = "PrScr #1=8cc0488ec026a103002d800026a30300" #this is a virus signature 
+    then int_del file = input   #this should delete the virus with that particular signature
+  if line "1024" = "PrScr #2=a172041f3df0f07505a10301cd0526a1"
+    then int_del file = input
+  if line "1024" = "PrScr #3=00012ea30300b4400e1fba0004b90004e8e8007230"
+    then int_del file = input
+]                        #so far it will have checked for 3 different virus signatures
+  if int_del = true
+    then print("virus detected and deleted"),
+    then int_end
+  if int_del = false
+    then int_continue
+  if line "1024" = "PrScr #4=babf00b82125cd2133c08ec0b8f0f026"
+    then int_del file = input
+  if line "1210" = "Prudent=2f040175d00e0e1f07bed3042bc92e8a0446410ac0"
+    the int_del file = input
+  if 
+
+
+
+
+
+
+
+
+
