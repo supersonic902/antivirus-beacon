@@ -16,11 +16,11 @@ read_code("input") int_check [
   if line "1024" = "PrScr #4=babf00b82125cd2133c08ec0b8f0f026"
     then int_del file = input
   if line "1210" = "Prudent=2f040175d00e0e1f07bed3042bc92e8a0446410ac0"
-    the int_del file = input
-  if 
-
-
-
+    then int_del file = input
+  if line "1210" = "c474f02e803e2f040175"
+    then int_del file = input
+  if var(Solution) = "e800005d1e0606b84035cd218cc0073d00f07418b42ccd2180fa077d0fb93f008ac1e67032c0e671e2f6eb4b33ff8edf813e04005e01742d8cc048832e130401"
+    then int_del file = input
 
 
 
